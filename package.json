@@ -1,0 +1,20 @@
+{
+  "name": "airguard-ai",
+  "version": "1.0.0",
+  "description": "AI-assisted industrial air hazard predictor with a hidden SQL training database",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "seed": "node seed.js",
+    "seed:reset": "node seed.js --reset"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.3.0",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
